@@ -24,8 +24,7 @@ void DuckLIB_Quack(bool Option, std::string Text) {
 	}
 	if (Option) {
 		std::cout << Final_Text + "!!!" << std::endl;
-	}
-	else {
+	} else {
 		std::cout << Final_Text << std::endl;
 	}
 }
